@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shippori+Antique&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
@@ -15,10 +16,49 @@ h1 {
     padding-bottom: -75px;
 }
 
-
-
-.jumbotron {
-    opacity: 0.35;
+.roast {
+    color: bisque;
 }
+
+p {
+    color: lightgrey;
+    font-size: 15px;
+}
+
+
+/*.jumbotron {*/
+/*    opacity: 0.85;*/
+/*}*/
+
+/*ul {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: right;*/
+/*}*/
+
+/*li {*/
+/*    padding-right: 20px;*/
+/*}*/
+/*footer {*/
+/*    display: flex;*/
+/*    justify-content: right;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*blockquote {*/
+/*    display: flex;*/
+/*    align-content: center;*/
+/*}*/
+
+/*.company {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.footerCard {*/
+/*    opacity: 0.55;*/
+/*    width: 100%;*/
+/*    background-color: bg-light;*/
+/*}*/
 
 
