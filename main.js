@@ -61,11 +61,11 @@ var submitNewCoffeeButton = document.querySelector('#submit-new-coffee');
 //Add functionality to add new coffee to array.
 submitNewCoffeeButton.addEventListener('click', addNewCoffee);
 
-function addNewCoffee(obj){
+function addNewCoffee(){
     let coffeeID = coffees.length+1;
     let newNameOfCoffee = newCoffeeName.value.toLowerCase().toString();
     let newCoffeeType = newCoffeeRoast.value.toString();
-    obj  = {
+    let obj  = {
         id: coffeeID,
         name: newNameOfCoffee,
         roast: newCoffeeType
@@ -95,7 +95,6 @@ var coffees = [
 ];
 
 var div = document.querySelector('#coffees');
-var submitButton = document.querySelector('#submit');
 var roastSelection = document.querySelector('#roast-selection');
 var coffeeNameSelection = document.querySelector('#coffee-name');
 
@@ -105,7 +104,6 @@ div.innerHTML = renderCoffees(coffees);
 
 coffeeNameSelection.addEventListener('input', searchCoffees)
 
-submitButton.addEventListener('click', updateCoffees);
 
 //Add functionality to update the displayed coffee as soon as they select an option from the select.
 roastSelection.addEventListener('change', updateCoffees);
