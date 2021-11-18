@@ -61,11 +61,11 @@ var submitNewCoffeeButton = document.querySelector('#submit-new-coffee');
 //Add functionality to add new coffee to array.
 submitNewCoffeeButton.addEventListener('click', addNewCoffee);
 
-function addNewCoffee(obj){
+function addNewCoffee(){
     let coffeeID = coffees.length+1;
     let newNameOfCoffee = newCoffeeName.value.toLowerCase().toString();
     let newCoffeeType = newCoffeeRoast.value.toString();
-    obj  = {
+    let obj  = {
         id: coffeeID,
         name: newNameOfCoffee,
         roast: newCoffeeType
