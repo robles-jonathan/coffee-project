@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
-
+body{
+    background: dodgerblue;
+}
 h1 {
     font-family: 'Estonia', cursive;
 }
