@@ -3,7 +3,7 @@
 function renderCoffee(coffee) {
     // Refactored the code to use bootstrap and divs instead of Tables
     var html = '<div class="col-6 m-0">';
-
+    // html += '<span>' + coffee.id + " " + '</span>';
     html += '<span class="font-weight-bold text-capitalize">' + coffee.name + " " + '</span>';
     html += '<span class="font-weight-bold text-capitalize text-black-50">' + coffee.roast + '</span>';
     html += '</div>';
@@ -14,8 +14,7 @@ function renderCoffee(coffee) {
 function renderCoffees(coffees) {
 
     var html = '';
-    html = '<div class = "row">';
-
+    // html = '<div class = "row">';
     // Original code loops the coffees going backwards thru the array
     // for(var i = coffees.length - 1; i >= 0; i--) {
 
@@ -25,6 +24,7 @@ function renderCoffees(coffees) {
         html += renderCoffee(coffees[i]);
     }
     html += '</div>';
+
     return html;
 }
 
